@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Form by Colorlib</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="login.css">
+    <link rel = "stylesheet" href="style.css">"
+</head>
+<header>
+    <nav>
+        <div class="logo">
+            <i class="fas fa-book-reader"></i>
+            <span>CodeBooks</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="newa.html">New Arrivals</a>
+            <a href="#categories">Browse by Category</a> 
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+            
+        </div>
+    </nav>
+</header>
+<section class="hero">
+    <h1>Expand Your Coding Knowledge</h1>
+    <p style="color: aliceblue;"> Discover the best programming books curated for every skill level</p>
+</section>
+
+<body>
+
+    <div class="main">
+
+        
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
+                        <a href="login.html" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+      
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About CodeBooks</h4>
+                <p>Your trusted source for programming and technology books.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="aboutus.html">About Us</a>
+                <a href="mailto:karanpatil82005@gmail.com">Contact</a>
+
+            </div>
+            <div class="footer-section">
+                <h4>Connect With Us</h4>
+                <div class="social-links">
+                    <a href="https://x.com/KaranPatil91623?t=ZRz8Nk7sD9DIl-AVhdBdjA&s=09"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/karanpatill/"> <i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/krishnahasare/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CodeBooks. All rights reserved.</p>
+        </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="main.js"></script>
+    
+    </footer>
+</body>
+</html>
